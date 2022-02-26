@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+.container{
+    background: 300px 180px;
+    background-color: wheat;
+}
+.ban-tin{
+    border: 50px;
+    background-color: wheat;
+    margin: 25px;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.menu-logo .logo {
+  position: absolute;
+  top: 5px;
+  right: 80px;
+}
+.menu-logo {
+  height: 70px;
+  position: relative;
+  background: #ffe3e3;
+}
+
+.menu-logo nav {
+  position: absolute;
+  left: 10px;
+}
+
+.menu-logo nav a {
+  text-decoration: none;
+  color: #000;
+  line-height: 70px;
+  margin: 0 30px;
+  font-size: 23px;
+
+}
+
+.menu-logo nav a:hover {
+  color: #4f091d;
+  font-weight: bold;
+  transition: all 0.2s linear;
+}
+.menu ul ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+}
+.menu > ul > li {
+  position: relative;
+  display: inline-block;
+}
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 60px;
+}
+.menu ul li ul {
+  position: absolute;
+  display: none;
+  width: 200px;
+}
+menu ul li ul a {
+  display: none;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+}
+.menu ul ul a:hover {
+  display: block;
+  background-color: #ffe3e3;
+}
+
+ul.con a {
+  padding: 0;
+  margin: 0;
+}
+.marquee{
+  background: 30px;
+  background-color: #ffe3e3;
+}
+

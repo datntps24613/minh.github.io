@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+/* remove animation for people who've turned them off */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.thongbao {
+  height: 40px;
+  text-align: center;
+  background: #eec373;
+  color: white;
+  line-height: 40px;
+}
+.menu-logo .logo {
+  position: absolute;
+  top: 5px;
+  right: 80px;
+}
+.menu-logo {
+  height: 70px;
+  position: relative;
+  background: #ffe3e3;
+}
+
+.menu-logo nav {
+  position: absolute;
+  left: 10px;
+}
+
+.menu-logo nav a {
+  text-decoration: none;
+  color: #000;
+  line-height: 70px;
+  margin: 0 30px;
+  font-size: 23px;
+}
+
+.menu-logo nav a:hover {
+  color: #4f091d;
+  font-weight: bold;
+  transition: all 0.2s linear;
+}
+
+.banner {
+  margin-top: 110px;
+}
+
+.banchay {
+  margin-left: 200px;
+}
+
+.sanpham:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s linear;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  transform: scale(1.1);
+}
+
+.heading {
+  text-align: center;
+  color: #876445;
+  font-size: 32px;
+  margin: 50px 0;
+  letter-spacing: 1px;
+  font-size: 40px;
+ 
+}
+.tin {
+  border: 50%;
+  background-color: wheat;
+  width: 20%;
+  margin: 0 15px;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+}
+.sanpham {
+  width: 20%;
+  margin: 0 20px;
+  margin-top: 30px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.sanpham .img:hover {
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+footer {
+  width: 100%;
+  background: #f3c892;
+  color: #1a374d;
+  text-align: center;
+}
+
+footer .footer-item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer .footer-item h3 {
+  margin: 20px 0;
+}
+
+footer .link a {
+  display: block;
+  text-decoration: none;
+  color: #1a374d;
+  margin: 10px;
+}
+
+.info {
+  width: 100%;
+  background: white;
+  color: #1a374d;
+  text-align: center;
+  display: inline-block;
+  border-top: 5px solid #eec373;
+  margin: 30px 0;
+}
+.info .footer-item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.menu ul ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+}
+.menu > ul > li {
+  position: relative;
+  display: inline-block;
+}
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.menu ul li ul {
+  position: absolute;
+  display: none;
+  width: 200px;
+}
+menu ul li ul a {
+  display: none;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+}
+.menu ul ul a:hover {
+  display: block;
+  background-color: #ffe3e3;
+}
+
+ul.con a {
+  padding: 0;
+  margin: 0;
+}
